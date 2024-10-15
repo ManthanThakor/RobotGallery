@@ -67,7 +67,9 @@ body {
 .register-link:hover {
   color: rgb(5, 142, 177);
 }
-
+.row {
+  --bs-gutter-x: 0rem !important;
+}
 /* Style for buttons */
 .btn {
   width: 100%;

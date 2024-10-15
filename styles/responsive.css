@@ -16,3 +16,38 @@
     }
   }
 }
+
+@media screen and (max-width: 676px) {
+  .info-section {
+    padding: 0px 40px;
+  }
+  .carousel-control-prev-icon {
+    left: 5px !important;
+    position: absolute;
+  }
+  .carousel-control-next-icon {
+    right: 5px !important;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .login-container,
+  .card-sec-row,
+  .register-container {
+    padding: 0px !important;
+  }
+
+  .info-section p {
+    font-size: 14px;
+  }
+  .info-section h2 {
+    font-size: 1.5rem;
+  }
+  .card-sec-row {
+    margin-bottom: 20px;
+  }
+  .card-section h2 {
+    padding-bottom: 20px;
+  }
+}
