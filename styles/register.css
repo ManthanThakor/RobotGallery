@@ -70,6 +70,9 @@ body {
 .row {
   --bs-gutter-x: 0rem !important;
 }
+.register-box {
+  padding: 20px;
+}
 /* Style for buttons */
 .btn {
   width: 100%;

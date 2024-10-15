@@ -37,7 +37,9 @@
   .register-container {
     padding: 0px !important;
   }
-
+  .register-box {
+    padding: 20px;
+  }
   .info-section p {
     font-size: 14px;
   }
