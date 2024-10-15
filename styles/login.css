@@ -1,0 +1,73 @@
+body {
+  background-color: #d3d8e2;
+  font-family: "Arial", sans-serif;
+}
+.login-container {
+  display: flex;
+  background: linear-gradient(rgba(0, 0, 0, 0.758), rgba(0, 0, 0, 0.758)),
+    url(../imgs/Background/Bgimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  width: 900px;
+  max-width: 100%;
+}
+.login-form {
+  padding: 40px;
+  width: 50%;
+}
+.login-form img {
+  filter: drop-shadow(2px 4px 6px black);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+}
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.login-form .form-control {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.login-form .btn-primary {
+  width: 100%;
+  border-radius: 5px;
+}
+.login-form .forgot-password,
+.login-form .register-link {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+.login-form .form-check {
+  margin-bottom: 20px;
+}
+.login-form .btn-secondary {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.login-image {
+  width: 50%;
+  background: no-repeat center center;
+  background-size: cover;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.login-image img {
+  object-fit: cover !important;
+  object-position: center !important;
+  /* mix-blend-mode: color-burn; */
+}

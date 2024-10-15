@@ -4,8 +4,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Robot Gallery</title>
-    <link rel="stylesheet" href="styles/login.css" />
+    <title>Robot Gallery - Register</title>
+    <link rel="stylesheet" href="styles/register.css" />
     <link rel="icon" type="image/x-icon" href="logo/logo.png" />
     <!-- Bootstrap CSS -->
     <link
@@ -18,27 +18,43 @@
     />
   </head>
   <body>
-    <div class="login-container">
-      <div class="login-box">
-        <div class="login-form">
+    <div class="register-container">
+      <div class="register-box">
+        <div class="register-form">
           <img
             alt="UTech logo"
-            class="mb-3"
+            class="mb-4"
             height="100"
             src="logo/logo.png"
             width="100"
           />
-          <h1 style="text-align: center">
+          <h1>
             Welcome to Robot Gallery
             <br />
-            Sign into your account
+            Create your account
           </h1>
           <form>
             <div class="mb-3">
               <input
                 class="form-control"
-                placeholder="Phone or Email address"
+                placeholder="Full Name"
                 type="text"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                class="form-control"
+                placeholder="Email address"
+                type="email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                class="form-control"
+                placeholder="Phone Number"
+                type="tel"
                 required
               />
             </div>
@@ -50,24 +66,30 @@
                 required
               />
             </div>
-            <a class="forgot-password" href="#">Forgot password?</a>
-
+            <div class="mb-3">
+              <input
+                class="form-control"
+                placeholder="Confirm Password"
+                type="password"
+                required
+              />
+            </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="rememberMe" />
-              <label class="form-check-label" for="rememberMe">
-                Remember Me
+              <input class="form-check-input" type="checkbox" id="agreeTerms" />
+              <label class="form-check-label" for="agreeTerms">
+                I agree to the Terms and Conditions
               </label>
             </div>
-            <button class="btn btn-primary" type="submit">Log In</button>
+            <button class="btn btn-primary" type="submit">Register</button>
           </form>
-          <a class="register-link" href="register.html"
-            >Don't have an account? Register</a
+          <a class="login-link" href="login.html"
+            >Already have an account? Sign In</a
           >
           <a href="index.html" class="register-link">
             <button class="btn btn-secondary">Go back to Home</button></a
           >
         </div>
-        <div class="login-image">
+        <div class="register-image">
           <img
             alt="Illustration of people interacting with technology"
             height="450"
